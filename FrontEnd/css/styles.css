@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Open Sans";
+    font-style: normal;
+}
+
+div {
+    display: block;
+}
+
+html {
+    font-family: Arial,"Helvetica Neue","Helvetica",sans-serif;
+    height: 100vh;
+}
+
+.logo {
+    width: 163px;
+    height: 109px;
+    left: 883px;
+    margin-top: 4rem;
+}
+
+.full-height {
+    height: 100vh;
+}
+
+.welcome-font {
+    margin-top: 16rem;
+    margin-left: 3.5rem;
+    color: white;
+}
+
+.login-form {
+    padding: 1.875em;
+    border: 1px solid #DEE8F8;
+    margin-top: 3.5em;
+}
+
+.login-button {
+    background: #4A6C9C;
+    color: white;
+    font-weight: bold;
+}
+
+ul li a {
+    color: #31495D;
+}
+
+ul li a.active {
+    border-bottom: 5px solid#4A6C9C;
+    color: #4A6C9C;
+}
+
+.tabs-form {
+    background-color: #fff;
+    border: 1px solid #D0DCED;
+    box-sizing: border-box;
+    height: 5rem;
+    border-radius: 8px 8px 0px 0px;
+}
+
+.tabs-table {
+    background: #FFFFFF;
+    border: 1px solid #DEE8F8;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 1px rgba(192, 204, 221, 0.4);
+    border-radius: 3px;
+}
+
+.text-color-primary {
+    color: #31495D;
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+    border-radius: 50px;
+}
+
+::-webkit-scrollbar-track {
+    background: #EBF1FB;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #D6E4FA;
+}
+
+.table-responsive {
+    height: 240px;
+    overflow-y: scroll;
+}
+
+thead tr:nth-child(1) th {
+    background: white;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+
+tr:nth-child(odd) {
+    background-color: #F7F9FD;
+}
+
+@media (max-width:575px) {
+    .text-xs-center {
+        text-align: center;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+    .text-xs-center {
+        text-align: center;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 991px) {
+    .text-xs-center {
+        text-align: center;
+    }
+}
+
+@media (min-width: 992px) {
+    .navbar-height {
+        height: 15vh;
+    }
+}

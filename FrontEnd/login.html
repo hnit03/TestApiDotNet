@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script type='text/javascript' src='js/knockout-3.5.0.js'></script>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 full-height" style="background-image: url('assets/background.png');background-size: cover;">
+                <h3 class="welcome-font">Welcome to <br /> CES Portal</h3>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-sm-12 col-lg-8">
+                <div class="text-center">
+                    <img alt="" src="assets/logo.png" class="logo" />
+                </div>
+                <div class="row">
+                    <div class="col-lg-3"></div>
+                    <div class="col-lg-6 login-form">
+                        <form data-bind="submit: login">
+                            <h4 class="font-weight-bold text-xs-center" style="color: #4A6C9C;margin-bottom: 1.5em;">Customer Portal Login</h4>
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label font-weight-bold text-color-primary">
+                                    <i class="fas fa-user"></i> Login ID/ Email address
+                                </label>
+                                <input type="text" class="form-control" data-bind="value: userName" id="exampleInputEmail1" placeholder="abc@gmail.com">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputPassword1" class="form-label font-weight-bold text-color-primary" aria-describedby="passwordHelp">
+                                    Password
+                                </label>
+                                <input type="password" class="form-control" data-bind="value: passWord" id="exampleInputPassword1" placeholder="********">
+                                <a id="passwordHelp" class="form-text" style="float: right;color: #376FA3;">Forgot password?</a>
+                            </div>
+                            
+                            <button class="btn form-control login-button mt-2">SIGN IN</button>
+                        </form>
+                    </div>
+                    <div class="col-lg-3"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/login.js"></script>
+</body>
+
+</html>

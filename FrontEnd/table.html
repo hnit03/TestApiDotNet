@@ -1,0 +1,36 @@
+<div class="table-responsive table-responsive-sm">
+    <table class="table table-bordered">
+        <thead class="fixedHeader">
+            <tr style="background-color: #fff;">
+                <th scope="col" class="text-color-primary">Statement ID</th>
+                <th scope="col" class="text-color-primary">Statement Date</th>
+                <th scope="col" class="text-color-primary">Previous Balance</th>
+                <th scope="col" class="text-color-primary">Current Charges</th>
+                <th scope="col" class="text-color-primary">Total</th>
+                <th scope="col" class="text-color-primary">Late Fees</th>
+            </tr>
+        </thead>
+        <tbody data-bind="foreach: invoiceList">
+            <!-- <tr data-bind="component: {
+        name: 'invoice',
+        params: { statementID: $data.statementID,
+        statementDate: $data.statementDate,
+        preBalance: $data.preBalance, 
+        curChanges: $data.curCharges,
+        total: $data.total,
+        lateFees: $data.lateFees}
+    }"></tr> -->
+            <tr>
+                <td data-bind="text: statementID"></td>
+                <td data-bind="text: statementDate"></td>
+                <td data-bind="text: '&#165;' + preBalance"></td>
+                <td data-bind="text: '&#165;' + curCharges"></td>
+                <td data-bind="text: '&#165;' + total"></td>
+                <td data-bind="text: '&#165;' + lateFees"></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<div style="float: right"
+    data-bind="text: totalRow() > 0 ? '1 - ' + totalRow() + ' of ' + totalRow() + ' items' : '0 item'">
+</div>'
