@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Task3\\BackEnd\\Task3\\Task3.csproj": {}
+    "C:\\HN\\New folder (2)\\TestApiDotNet\\BackEnd\\Task3\\Task3.csproj": {}
   },
   "projects": {
-    "E:\\Task3\\BackEnd\\Task3\\Task3.csproj": {
+    "C:\\HN\\New folder (2)\\TestApiDotNet\\BackEnd\\Task3\\Task3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Task3\\BackEnd\\Task3\\Task3.csproj",
+        "projectUniqueName": "C:\\HN\\New folder (2)\\TestApiDotNet\\BackEnd\\Task3\\Task3.csproj",
         "projectName": "Task3",
-        "projectPath": "E:\\Task3\\BackEnd\\Task3\\Task3.csproj",
-        "packagesPath": "C:\\Users\\nhinh3\\.nuget\\packages\\",
-        "outputPath": "E:\\Task3\\BackEnd\\Task3\\obj\\",
+        "projectPath": "C:\\HN\\New folder (2)\\TestApiDotNet\\BackEnd\\Task3\\Task3.csproj",
+        "packagesPath": "C:\\Users\\Kris\\.nuget\\packages\\",
+        "outputPath": "C:\\HN\\New folder (2)\\TestApiDotNet\\BackEnd\\Task3\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\nhinh3\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Kris\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,6 +26,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -37,6 +38,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Dapper": {
               "target": "Package",
@@ -93,7 +95,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

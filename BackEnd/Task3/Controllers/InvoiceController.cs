@@ -13,7 +13,7 @@ using Task3.Models;
 namespace Task3.Controllers
 {
     
-    [Route("api/invoice")]
+    [Route("api/product")]
     [ApiController]
     public class InvoiceController : ControllerBase
     {
@@ -26,17 +26,13 @@ namespace Task3.Controllers
             this.logger = logger;
         }
 
-        [Authorize]
-        [HttpGet("getAllOwnInvoice")]
-        public ActionResult GetAllOwnInvoice([FromHeader] string authorization)
+        [HttpGet]
+        public ActionResult GetAllProduct([FromHeader] string authorization)
         {
             try
             {
-                var decode = new JwtSecurityTokenHandler().ReadToken(authorization.Substring(7)) as JwtSecurityToken;
-                var username = decode.Claims.FirstOrDefault(claim => claim.Type == "Username").Value;
                 var invoiceList = invoiceRepository.GetAllInvoice(username);
                 return Ok(new { invoiceList });
-
             }
             catch (Exception ex)
             {

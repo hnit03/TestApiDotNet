@@ -96,3 +96,11 @@ E:\Task3\BackEnd\Task3\bin\Debug\netcoreapp3.1\Serilog.Sinks.RollingFile.dll
 E:\Task3\BackEnd\Task3\bin\Debug\netcoreapp3.1\Dapper.dll
 E:\Task3\BackEnd\Task3\obj\Debug\netcoreapp3.1\Task3.csproj.CoreCompileInputs.cache
 E:\Task3\BackEnd\Task3\obj\Debug\netcoreapp3.1\Task3.MvcApplicationPartsAssemblyInfo.cache
+C:\HN\New folder (2)\TestApiDotNet\BackEnd\Task3\obj\Debug\netcoreapp3.1\Task3.csproj.AssemblyReference.cache
+C:\HN\New folder (2)\TestApiDotNet\BackEnd\Task3\obj\Debug\netcoreapp3.1\Task3.GeneratedMSBuildEditorConfig.editorconfig
+C:\HN\New folder (2)\TestApiDotNet\BackEnd\Task3\obj\Debug\netcoreapp3.1\Task3.AssemblyInfoInputs.cache
+C:\HN\New folder (2)\TestApiDotNet\BackEnd\Task3\obj\Debug\netcoreapp3.1\Task3.AssemblyInfo.cs
+C:\HN\New folder (2)\TestApiDotNet\BackEnd\Task3\obj\Debug\netcoreapp3.1\Task3.csproj.CoreCompileInputs.cache
+C:\HN\New folder (2)\TestApiDotNet\BackEnd\Task3\obj\Debug\netcoreapp3.1\Task3.MvcApplicationPartsAssemblyInfo.cache
+C:\HN\New folder (2)\TestApiDotNet\BackEnd\Task3\obj\Debug\netcoreapp3.1\Task3.dll
+C:\HN\New folder (2)\TestApiDotNet\BackEnd\Task3\obj\Debug\netcoreapp3.1\Task3.pdb

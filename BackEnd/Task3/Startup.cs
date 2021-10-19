@@ -11,8 +11,6 @@ using System.IO;
 using System.Text;
 using Task3.Ropositories;
 using Task3.IRepositories;
-using Task3.IServices;
-using Task3.Services;
 using Task3.Models;
 using System.Data;
 using Microsoft.Data.SqlClient;
@@ -63,15 +61,10 @@ namespace Task3
 
             services.AddTransient<IDbConnection>((sp) => new SqlConnection(connectionString));
 
-            services.AddScoped<IAccountRepository, AccountRepository>();
-
             services.AddScoped<IInvoiceRepository, InvoiceRepository>();
-
-            services.AddScoped<IAuthenticationService, AuthenticationService>();
 
             services.AddScoped<DbContext, TaskThreeContext>();
 
-            services.AddScoped<IInvoiceDapper, InvoiceDapper>();
 
         }
 
